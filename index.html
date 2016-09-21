@@ -10,9 +10,17 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <script>
-        alert("hello")
-    </script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("input:text").val("Glenn Quagmire");
+    });
+});
+</script>
+
+<p>Name: <input type="text" name="user"></p>
+
+<button>Set the value of the input field</button>
     
     <section class="page-header">
       <h1 class="project-name">Machinelearningdemo</h1>
