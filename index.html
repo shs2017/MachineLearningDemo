@@ -10,26 +10,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-
-
-<input type="file" id="myFile" multiple size="50" onchange="myFunction()">
-    
-<script>
-$.ajax({
-        type: 'POST',
-        url: "scripts/sample.py",
-        data: {param: "parameter!!!"}, //passing some input here
-        dataType: "text",
-        success: function(response){
-           output = response;
-           alert(output);
-        }
-}).done(function(data){
-    console.log(data);
-    alert(data);
-});
-</script>
 
     <section class="page-header">
       <h1 class="project-name">Machinelearningdemo</h1>
